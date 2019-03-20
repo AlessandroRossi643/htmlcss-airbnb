@@ -6,19 +6,30 @@
   height: 750px;
   margin: 0;
   background-size: cover;
+  position: relative;
+  border: 5px solid white;
 }
-
 .nomecittà{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
   font-size: 40px;
   font-family: sans-serif;
   color: white;
   font-weight: 300;
 }
-
+.posizione1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.posizione2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
 .città1{
   background-image: url("anghiari.jpg");
+}
+.città2{
+  background-image: url("lagobraies.jpg");
 }
