@@ -15,21 +15,19 @@
   color: white;
   font-weight: 300;
 }
-.posizione1{
+.posizione1,.posizione2,.posizione3{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
 }
-.posizione2{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-}
+
 .città1{
   background-image: url("anghiari.jpg");
 }
 .città2{
   background-image: url("lagobraies.jpg");
+}
+.città3{
+  background-image: url("civitabagnoregio.jpg");
 }
