@@ -8,12 +8,14 @@
   background-size: cover;
   position: relative;
   border: 5px solid white;
+
 }
 .nomecittà{
   font-size: 40px;
   font-family: sans-serif;
   color: white;
   font-weight: 300;
+  letter-spacing: 5px;
 }
 .posizione1,.posizione2,.posizione3{
   position: absolute;
@@ -24,10 +26,13 @@
 
 .città1{
   background-image: url("anghiari.jpg");
+  filter: brightness(70%);
 }
 .città2{
   background-image: url("lagobraies.jpg");
+  filter: brightness(70%);
 }
 .città3{
   background-image: url("civitabagnoregio.jpg");
+  filter: brightness(70%);
 }
