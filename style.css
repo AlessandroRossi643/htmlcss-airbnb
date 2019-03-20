@@ -1,0 +1,24 @@
+*{
+  box-sizing: border-box;
+}
+.containercittà{
+  width: 100vw;
+  height: 750px;
+  margin: 0;
+  background-size: cover;
+}
+
+.nomecittà{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 40px;
+  font-family: sans-serif;
+  color: white;
+  font-weight: 300;
+}
+
+.città1{
+  background-image: url("anghiari.jpg");
+}
